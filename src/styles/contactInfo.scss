@@ -1,0 +1,22 @@
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &:last-child .button {
+    margin-top: 10px;
+  }
+
+  // &--active {
+  //   flex-direction: column;
+  //   align-items: flex-end;
+
+  //   &:last-child .button {
+  //     margin-top: 10px;
+  //   }
+  // }
+
+  // &:last-child .button {
+  //   margin-left: 10px;
+  // }
+}

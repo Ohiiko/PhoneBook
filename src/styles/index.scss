@@ -1,0 +1,18 @@
+.phoneContacts {
+  min-width: 800px;
+
+  &__content {
+    width: 90%;
+    padding-right: 30px;
+    margin: 0 auto;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@import "./header.scss";
+@import "./table.scss";
+@import "./contactInfo.scss";

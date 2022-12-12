@@ -1,0 +1,28 @@
+.table {
+  &,
+  & th:not([align]) {
+    text-align: center;
+
+  }
+
+  & td {
+    vertical-align: middle;
+  }
+
+  &.is-striped tbody tr:not(.is-selected):nth-child(odd) {
+    background-color: #fafafa;
+  }
+
+  &.is-striped tbody tr:not(.is-selected):nth-child(even) {
+    background-color: #fff;
+  }
+
+  &.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(odd) {
+    background-color: whitesmoke;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
